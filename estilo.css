@@ -1,0 +1,99 @@
+@font-face{
+		font-family: HunterRiver;
+		src: url(HunterRiver-Regular.otf);
+
+}
+body{
+	background-color:rgba(0,0,0,0.85);
+	margin: 0;
+}
+#link-tablatura{
+	text-decoration:none;
+	color:white;
+}
+#cab{
+
+	background-color:black;
+	width: 50px;
+	height: 100vh;
+	position: fixed;
+	border-right:3px solid yellow;
+	margin-top: -6.7vh;
+
+
+}
+
+
+#icone-musica{
+	margin-top:15vh;
+	position: absolute;transition-duration:1s;
+	color: white;
+	font-size: 300%;
+
+}
+#icone-menu{
+	position: absolute;
+	color: white;
+	font-size: 300%;transition-duration:1s;
+
+}
+#icone-menu:hover{
+color:yellow;
+
+}
+#icone-pessoa{
+	margin-top: 30vh;
+	position: absolute;
+	color: white;transition-duration:1s;
+	font-size: 300%;
+
+}
+#icone-afinador{
+	margin-top: 45vh;
+	position: absolute;
+	color: white;
+	font-size: 300%;
+transition-duration:1s;
+}
+#icone-musica:hover{
+	color:yellow;
+}
+#icone-pessoa:hover{
+	color:yellow;
+}
+#icone-afinador:hover{
+	color:yellow;
+}
+#icone-sol{
+	margin-top: 85vh;
+	position: absolute;
+	color: white;
+	font-size: 300%;
+transition-duration:1s;
+}
+
+#cab{
+	background-size:800%;
+	background-image:linear-gradient(to right;black,white);
+	transition-duration:4s;
+}
+/*#cab:hover{
+		background-image: url("https://steamusercontent-a.akamaihd.net/ugc/919169528594496110/BF4F50D3EA859D4BADB264A40EF42284F4014B3E/");
+
+}*/
+#lua{
+	height:50px;
+	width: 50px;
+	margin-top:75vh;
+}
+#video{
+
+margin-top: -70vh;
+margin-left: 30vh;
+}
+#titulo{
+	margin-left: 40%;
+	font-family: HunterRiver;
+	color: white;
+	font-size: 10vh;
+}
